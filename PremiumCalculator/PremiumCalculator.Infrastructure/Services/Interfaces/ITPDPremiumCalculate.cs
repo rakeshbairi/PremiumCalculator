@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace PremiumCalculator.Infrastructure.Services.Interfaces
 {
-    public interface IPremiumCalculate
+    public interface ITPDPremiumCalculate
     {
-        public float PremiumCalculate(InsuredPerson insuredPerson);
+        public  float PremiumCalculate(InsuredPerson insuredPerson);
     }
 }

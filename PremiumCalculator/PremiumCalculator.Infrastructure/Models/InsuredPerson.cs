@@ -9,9 +9,9 @@ namespace PremiumCalculator.Infrastructure.Models
     public class InsuredPerson
     {
         public int InsuredPersonId { get; set; }
-        public int PersonName { get; set; }
+        public string PersonName { get; set; }
         public int Age { get; set; }
-        public int DateofBirth { get; set; }
+        public DateTime DateofBirth { get; set; }
         
         //Reference from Occupation
         public int OccupationID { get; set; }
